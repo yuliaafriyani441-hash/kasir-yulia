@@ -4,7 +4,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SiswaController;
 use App\Http\Controllers\GuruController;
 use Illuminate\Support\Facades\Route;
-//use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
